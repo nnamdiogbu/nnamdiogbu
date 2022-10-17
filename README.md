@@ -26,6 +26,7 @@ fn main() {
             "C#",
             "GO",
             "DOTNETCORE",
+            "GraphQl",
             "GIT",
             "Bash",
         ],
