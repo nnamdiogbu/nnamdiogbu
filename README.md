@@ -23,6 +23,7 @@ fn main() {
             "Nodejs",
             "Rust",
             "Typescript",
+            "React",
             "C#",
             "GO",
             "DOTNETCORE",
