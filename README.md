@@ -8,22 +8,29 @@
 
 
 ```rust
-fn main() {
-  let this = About {
-    name: "Anhad Singh",
-    age: 15,
-    pronouns: "he/him",
-    code: vec![
-      "Rust",
-      "Assembly", 
-      "C", 
-      "C++", 
-      "Python", 
-      "GIT", 
-      "Bash/Shell Scripting",
-      "..."
-    ]
-  };
+struct Developer<'a> {
+    name: &'a str,
+    interests: Vec<&'a str>,
+    tech: Vec<&'a str>,
 }
+
+fn main() {
+    let me = Developer {
+        name: "Nnamdi Ogbu",
+        interests: vec!["Coding", "Movies", "Sports"],
+        tech: vec![
+            "AWS",
+            "Nodejs",
+            "Rust",
+            "Typescript",
+            "C#",
+            "GO",
+            "DOTNETCORE",
+            "GIT",
+            "Bash",
+        ],
+    };
+}
+
 ```
 
