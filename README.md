@@ -1,6 +1,6 @@
 
 
-### Hello <img src="https://github.com/Andy-Python-Programmer/Andy-Python-Programmer/blob/master/hello.gif" height="25px"> I'm Nnamdi!
+### Hello <img src="https://github.com/nnamdiogbu/nnamdiogbu/blob/main/hello.gif" height="25px"> I'm Nnamdi!
 
 
 
